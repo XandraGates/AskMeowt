@@ -1,0 +1,125 @@
+body {
+  background-color: black;
+}
+
+#title {
+background-color: #F0D200;
+}
+
+header {
+  background-color: #F0D200;
+}
+
+.navbar {
+  background-color: #F0D200 !important;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-item {
+  padding: 0 18px !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid black;
+}
+
+.heading {
+  padding-top: 3rem;
+  color: #fff;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-size: 1.5rem;
+}
+
+.header-img {
+  width: 30%;
+  margin-left: 20rem;
+  padding-bottom: 1rem;
+}
+
+@media(max-width:991px) {
+  .heading {
+    text-align: center !important;
+  }
+  .download-button {
+    margin: auto;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .header-img {
+    position: static;
+    margin: auto;
+    margin-left: 7rem;
+  }
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 100% !important;
+  background-size: cover;
+}
+
+.features {
+  background-color: #F0D200;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+h4 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.feature-icon:hover {
+  color: white;
+}
+
+.pricing {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.pricing-header {
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.cta {
+  background-color: #F0D200;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 5%;
+  color: #fff;
+}
+
+.footer-icons {
+  display: inline-block;
+  width: 10%;
+}
